@@ -1,0 +1,210 @@
+*
+{
+    padding:0;
+    margin: 0;
+}
+
+.header{
+    height:100%;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/MAP2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    color: antiquewhite;
+    
+}
+.header img{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.navbar {
+    padding: 10px;
+    background-color: #633b1e; /* Brown color */
+}
+
+.navbar-brand {
+    font-size: 12px;
+    font-style:normal;
+    color: #fff; /* Text color for the company name */
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    margin-left: 20px;
+    color: #fff;
+}
+.header h1{
+    padding-top: 200px;
+    padding-bottom: 0;
+    font-size: 75px;
+    font-style: italic;
+    text-align: center;
+}
+.d-flex{
+    padding-top: 170px;
+  
+
+}
+
+
+
+.destinations{
+    padding: 100px 0;
+}
+.destinations h1{
+    text-align: center;
+    padding-bottom: 30px;
+    color: #5c381e;
+    font-style: initial;
+}
+.image-zoom-container {
+    position: relative;
+    overflow: hidden;
+}
+.image-zoom {
+    transition: transform 0.3s ease;
+}
+.image-zoom:hover {
+    transform: scale(1.1);
+}
+
+
+
+.travel h1{
+    text-align: center;
+    color: #5c381e;
+    padding-bottom: 30px;
+    font-style: initial;
+}
+
+.image-square {
+    border-radius: 10px; /* Adjust the value to control the roundness of the edges */
+    overflow: hidden;
+    transition: transform 0.3s ease; /* Add the transition effect */
+}
+.image-square img {
+    width: 100%;
+    height: auto;
+}
+.image-square:hover {
+    transform: scale(1.1); /* Zoom in on hover */
+}
+
+
+
+
+.image-circle {
+    width: 150px; /* Set the width and height of the circular container */
+    height: 150px;
+    border-radius: 50%; /* Create a circular shape */
+    overflow: hidden; /* Clip the image to fit the circle */
+    transition: transform 0.3s ease; /* Add the zoom effect */
+    margin: 10px; /* Add some margin between images */
+}
+.image-circle img {
+    width: 100%;
+    height: auto;
+}
+.image-circle:hover {
+    transform: scale(1.1); /* Zoom in on hover */
+}
+.guides h1{
+    text-align: center;
+    color: #5c381e;
+    padding-top: 50px;
+    font-style: initial;
+}
+.image-circle p {
+    margin-top: 10px;
+    text-align: center;
+    color: #b82b2b;
+}
+
+
+.hotels h1{
+    text-align: center;
+    padding-bottom: 30px;
+    color: #5c381e;
+    font-style: initial;
+}
+
+
+.create h1{
+    text-align: center;
+    padding-bottom: 30px;
+    color: #5c381e;
+    font-style: initial;
+}
+.custom-box {
+    background-color: #976530;; /* Brown background color with increased transparency */
+    color: #fff; /* Text color */
+    padding: 20px; /* Add some padding to the box */
+    display: flex; /* Display content in a row */
+    align-self: center;
+    display: flex; /* Display content in a column */
+    flex-direction: column; /* Align content vertically */
+}
+.custom-box p {
+    margin: 0 10px;
+    font-size: x-large;
+    text-align: center; /* Add some spacing between elements */
+}
+.custom-box button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: none;
+    color: #673604;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition for button hover effect */
+}
+.custom-box button:hover {
+    background-color: #F5DEB3;
+}
+
+.top rated h1{
+    text-align: center;
+    padding-bottom: 100px;
+    color: #724729;
+    font-style: initial;
+}
+
+
+
+
+.footer {
+    background-color: #846d42; /* Light brown background color */
+    color: #f4f3f2; /* Brown text color */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+.footer-left p {
+    margin: 0;
+    margin-right: 20px;
+}
+.footer-right {
+    display: flex;
+    align-items: center;
+}
+.footer-right i {
+    margin-right: 10px;
+}
+.footer-icons {
+    display: flex;
+    justify-content: center;
+}
+.footer-icons i {
+    margin: 10px;
+    font-size: 24px;
+    color: #70553b;
+}
+
